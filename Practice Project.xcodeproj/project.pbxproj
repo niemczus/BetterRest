@@ -11,6 +11,7 @@
 		2B65952B277C54D50098DD8A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B65952A277C54D50098DD8A /* ContentView.swift */; };
 		2B65952D277C54DD0098DD8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B65952C277C54DD0098DD8A /* Assets.xcassets */; };
 		2B659530277C54DD0098DD8A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B65952F277C54DD0098DD8A /* Preview Assets.xcassets */; };
+		2B659539277C94460098DD8A /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2B659538277C94450098DD8A /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		2B65952A277C54D50098DD8A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2B65952C277C54DD0098DD8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B65952F277C54DD0098DD8A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2B659538277C94450098DD8A /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				2B659528277C54D50098DD8A /* Practice_ProjectApp.swift */,
 				2B65952A277C54D50098DD8A /* ContentView.swift */,
+				2B659538277C94450098DD8A /* SleepCalculator.mlmodel */,
 				2B65952C277C54DD0098DD8A /* Assets.xcassets */,
 				2B65952E277C54DD0098DD8A /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B659539277C94460098DD8A /* SleepCalculator.mlmodel in Sources */,
 				2B65952B277C54D50098DD8A /* ContentView.swift in Sources */,
 				2B659529277C54D50098DD8A /* Practice_ProjectApp.swift in Sources */,
 			);
