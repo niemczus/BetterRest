@@ -36,6 +36,9 @@ struct ContentView: View {
                 Section {
                     DatePicker("Please enter a time", selection: $wakeUp, displayedComponents: .hourAndMinute)
                         .labelsHidden()
+                        .onReceive([self.wakeUp].publisher.first()) { value in
+                            self.calculateBedtime()
+                        }
                 } header: {
                     Text("When do you want to wake up?")
                         .font(.headline)
@@ -53,21 +56,24 @@ struct ContentView: View {
                         ForEach(0..<21) {
                             Text($0 == 1 ? "\($0) cup" : "\($0) cups")
                         }
-                    }.pickerStyle(.wheel)
+                    }
+                    .pickerStyle(.wheel)
+                    .onReceive([self.coffeeAmount].publisher.first()) {value in
+                        self.calculateBedtime()
+                    }
                 } header: {
                     Text("Daily cups of coffee intake")
                         .font(.headline)
                 }
+                Section {
+                    Text("\(alertMessage)")
+                        .font(.title.bold())
+                } header: {
+                    Text("\(alertTitle)")
+                }
+                
             }
             .navigationTitle("BetterRest")
-            .toolbar {
-                Button("Calculate", action: calculateBedtime)
-            }
-            .alert(alertTitle, isPresented: $showingAlert) {
-                Button("OK") { }
-            } message: {
-                Text(alertMessage)
-            }
         }
     }
     func calculateBedtime() {

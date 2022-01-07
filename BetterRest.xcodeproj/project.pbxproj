@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2B659525277C54D50098DD8A /* Practice Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Practice Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B659525277C54D50098DD8A /* BetterRest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterRest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B659528277C54D50098DD8A /* Practice_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice_ProjectApp.swift; sourceTree = "<group>"; };
 		2B65952A277C54D50098DD8A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2B65952C277C54DD0098DD8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		2B659526277C54D50098DD8A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2B659525277C54D50098DD8A /* Practice Project.app */,
+				2B659525277C54D50098DD8A /* BetterRest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,9 +73,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2B659524277C54D50098DD8A /* Practice Project */ = {
+		2B659524277C54D50098DD8A /* BetterRest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2B659533277C54DD0098DD8A /* Build configuration list for PBXNativeTarget "Practice Project" */;
+			buildConfigurationList = 2B659533277C54DD0098DD8A /* Build configuration list for PBXNativeTarget "BetterRest" */;
 			buildPhases = (
 				2B659521277C54D50098DD8A /* Sources */,
 				2B659522277C54D50098DD8A /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = "Practice Project";
+			name = BetterRest;
 			productName = "Practice Project";
-			productReference = 2B659525277C54D50098DD8A /* Practice Project.app */;
+			productReference = 2B659525277C54D50098DD8A /* BetterRest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2B659520277C54D50098DD8A /* Build configuration list for PBXProject "Practice Project" */;
+			buildConfigurationList = 2B659520277C54D50098DD8A /* Build configuration list for PBXProject "BetterRest" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2B659524277C54D50098DD8A /* Practice Project */,
+				2B659524277C54D50098DD8A /* BetterRest */,
 			);
 		};
 /* End PBXProject section */
@@ -286,8 +286,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kamilniemczyk.Practice-Project";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kamilniemczyk.BetterRest;
+				PRODUCT_NAME = BetterRest;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -315,8 +315,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kamilniemczyk.Practice-Project";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kamilniemczyk.BetterRest;
+				PRODUCT_NAME = BetterRest;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -326,7 +326,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2B659520277C54D50098DD8A /* Build configuration list for PBXProject "Practice Project" */ = {
+		2B659520277C54D50098DD8A /* Build configuration list for PBXProject "BetterRest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2B659531277C54DD0098DD8A /* Debug */,
@@ -335,7 +335,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2B659533277C54DD0098DD8A /* Build configuration list for PBXNativeTarget "Practice Project" */ = {
+		2B659533277C54DD0098DD8A /* Build configuration list for PBXNativeTarget "BetterRest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2B659534277C54DD0098DD8A /* Debug */,
